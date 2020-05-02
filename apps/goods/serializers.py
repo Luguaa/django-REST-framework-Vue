@@ -32,6 +32,7 @@ class CategorySerializer(serializers.ModelSerializer):
     """
     商品类别一级目录序列化
     """
+    # sub_cat：models里的related_name
     sub_cat = CategorySerializer2(many=True)
 
     class Meta:
