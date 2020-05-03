@@ -136,6 +136,7 @@ USE_L10N = True
 
 USE_TZ = False
 
+# 自定义登录认证方法
 AUTHENTICATION_BACKENDS = (
     'users.views.CustomBackend',
 )
@@ -154,4 +155,11 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.BasicAuthentication',
         'rest_framework.authentication.SessionAuthentication',
     ),
+}
+
+# 修改JWT过期时间
+import datetime
+JWT_AUTH = {
+    'JWT_EXPIRATION_DELTA': datetime.timedelta(days=7),
+    'JWT_AUTH_HEADER_PREFIX': 'JWT',
 }
