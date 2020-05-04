@@ -42,6 +42,7 @@ router.register(r'codes', SmsCodeViewset, basename="codes")
 # 用户注册
 router.register(r'users', UserViewset, basename="users")
 
+
 urlpatterns = [
     url(r'^xadmin/', xadmin.site.urls),
     url(r'^media/(?P<path>.*)$', serve, {"document_root": MEDIA_ROOT}),
