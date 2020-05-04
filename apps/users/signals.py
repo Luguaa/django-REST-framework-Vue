@@ -1,6 +1,7 @@
 __author__ = 'Luguaa'
 __date__ = '2020/5/4 16:55'
 
+
 from django.db.models.signals import post_save
 from django.dispatch import receiver
 from rest_framework.authtoken.models import Token
