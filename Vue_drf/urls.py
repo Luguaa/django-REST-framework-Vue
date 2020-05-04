@@ -25,6 +25,7 @@ from rest_framework.authtoken import views
 from rest_framework_jwt.views import obtain_jwt_token
 
 from goods.views import GoodsListViewSet, CategoryViewSet
+from users.views import SmsCodeViewset, UserViewset
 from Vue_drf.settings import MEDIA_ROOT
 
 router = DefaultRouter()
@@ -34,6 +35,12 @@ router.register(r'goods', GoodsListViewSet, basename="goods")
 
 # 配置category的url
 router.register(r'categorys', CategoryViewSet, basename="categorys")
+
+# 配置发送短信验证码的url
+router.register(r'codes', SmsCodeViewset, basename="codes")
+
+# 用户注册
+router.register(r'users', UserViewset, basename="users")
 
 urlpatterns = [
     url(r'^xadmin/', xadmin.site.urls),

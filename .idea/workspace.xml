@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb8639fc-80a4-4984-8370-b92049c7d957" name="Default Changelist" comment="" />
+    <list default="true" id="eb8639fc-80a4-4984-8370-b92049c7d957" name="Default Changelist" comment="更新gitignore">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue_drf/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vue_drf/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue_drf/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vue_drf/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/utils/yunpian.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/utils/yunpian.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +18,9 @@
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="MxShop" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -18,7 +30,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1akTr4a7uST5zZQDkpg40Jp2RfY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,11 +44,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../personal_blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\Vue_drf\db_tools\data" />
+      <recent name="C:\Users\Administrator\Desktop\Vue_drf\apps" />
+      <recent name="C:\Users\Administrator\Desktop\Vue_drf" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop" />
       <recent name="C:\Users\Administrator\Desktop\Vue_drf\db_tools" />
@@ -38,13 +63,8 @@
       <recent name="C:\Users\Administrator\Desktop\Vue_drf\apps\users" />
       <recent name="C:\Users\Administrator\Desktop\Vue_drf\apps\user_operation" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\Vue_drf\db_tools\data" />
-      <recent name="C:\Users\Administrator\Desktop\Vue_drf\apps" />
-      <recent name="C:\Users\Administrator\Desktop\Vue_drf" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.convert">
+  <component name="RunManager" selected="Django server.Vue_drf">
     <configuration name="convert" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MxShop" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,6 +131,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="yunpian" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MxShop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apps/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apps/utils/yunpian.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Vue_drf" type="Python.DjangoServer" factoryName="Django server">
       <module name="MxShop" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,6 +179,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.yunpian" />
         <item itemvalue="Python.convert" />
         <item itemvalue="Python.import_product_data" />
         <item itemvalue="Python.import_category_data" />
@@ -177,57 +220,118 @@
       <workItem from="1588214265204" duration="4251000" />
       <workItem from="1588263261827" duration="1524000" />
       <workItem from="1588304316314" duration="9066000" />
+      <workItem from="1588390070365" duration="4005000" />
+      <workItem from="1588406897705" duration="4707000" />
+      <workItem from="1588483173919" duration="14170000" />
+      <workItem from="1588561066928" duration="14752000" />
     </task>
+    <task id="LOCAL-00001" summary="更改分页类，使每页显示12个商品，以配合前端。">
+      <created>1588414596343</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588414596343</updated>
+    </task>
+    <task id="LOCAL-00002" summary="增加注释">
+      <created>1588414701876</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588414701876</updated>
+    </task>
+    <task id="LOCAL-00003" summary="试验局部验证token方式">
+      <created>1588493664902</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588493664902</updated>
+    </task>
+    <task id="LOCAL-00004" summary="修改JWT过期时间">
+      <created>1588514102163</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588514102163</updated>
+    </task>
+    <task id="LOCAL-00005" summary="增加云片网发送短信验证码功能">
+      <created>1588514214809</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588514214809</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更改分页类，使每页显示12个商品，以配合前端。" />
+    <MESSAGE value="增加注释" />
+    <MESSAGE value="试验局部验证token方式" />
+    <MESSAGE value="修改JWT过期时间" />
+    <MESSAGE value="增加云片网发送短信验证码功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="1067" y="122" key="CommitChangelistDialog2" timestamp="1588585308083">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1067" y="122" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588585308083" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1588318234610">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588318234610" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1588176371546">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1588566714616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588176371546" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1588176371546">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588566714616" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1588566714616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588176371546" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1588176371546">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588566714616" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1588566714615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588176371546" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1588176371546">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588566714615" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1588566714616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588176371546" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1587746071522">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588566714616" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1588566714616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587746071522" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1587746071522">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588566714616" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1588566714616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587746071522" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1587746071522">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588566714616" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1588566714616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587746071521" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1587746071522">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588566714616" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1588566714616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587746071522" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587473529107">
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588566714616" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1588406864652">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587473529107" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588406864652" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1588585324356">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588585324356" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588497268443">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588497268443" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MxShop$convert.coverage" NAME="convert Coverage Results" MODIFIED="1588163817814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db_tools" />
     <SUITE FILE_PATH="coverage/MxShop$import_product_data.coverage" NAME="import_product_data Coverage Results" MODIFIED="1587440677854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db_tools" />
+    <SUITE FILE_PATH="coverage/MxShop$yunpian.coverage" NAME="yunpian Coverage Results" MODIFIED="1588564339117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/utils" />
     <SUITE FILE_PATH="coverage/MxShop$import_category_data.coverage" NAME="import_category_data Coverage Results" MODIFIED="1587370542454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db_tools" />
   </component>
 </project>
