@@ -6,12 +6,15 @@ from django.db.models import Q
 from rest_framework.mixins import CreateModelMixin
 from rest_framework import viewsets
 from rest_framework import mixins
+from rest_framework import permissions
 from rest_framework.response import responses
 from rest_framework import status
+from rest_framework import authentication
 from rest_framework.response import Response
 from rest_framework_jwt.serializers import jwt_encode_handler, jwt_payload_handler
+from rest_framework_jwt.authentication import JSONWebTokenAuthentication
 
-from .serializers import SmsSerializer, UserRegSerializer
+from .serializers import SmsSerializer, UserRegSerializer, UserDetailSerializer
 from .models import VerifyCode
 from utils.yunpian import YunPian
 from Vue_drf.settings import APIKEY
@@ -81,25 +84,31 @@ class UserViewset(CreateModelMixin, mixins.UpdateModelMixin, mixins.RetrieveMode
     """
     serializer_class = UserRegSerializer
     queryset = User.objects.all()
-    # authentication_classes = (JSONWebTokenAuthentication, authentication.SessionAuthentication )
-    #
-    # def get_serializer_class(self):
-    #     if self.action == "retrieve":
-    #         return UserDetailSerializer
-    #     elif self.action == "create":
-    #         return UserRegSerializer
-    #
-    #     return UserDetailSerializer
-    #
-    # # permission_classes = (permissions.IsAuthenticated, )
-    # def get_permissions(self):
-    #     if self.action == "retrieve":
-    #         return [permissions.IsAuthenticated()]
-    #     elif self.action == "create":
-    #         return []
-    #
-    #     return []
-    #
+    authentication_classes = (JSONWebTokenAuthentication, authentication.SessionAuthentication)
+
+    def get_serializer_class(self):
+        """
+        动态获取serializer
+        """
+        if self.action == "retrieve":
+            return UserDetailSerializer
+        elif self.action == "create":
+            return UserRegSerializer
+
+        return UserDetailSerializer
+
+    permission_classes = (permissions.IsAuthenticated, )
+
+    def get_permissions(self):
+        """
+        动态使用认证
+        """
+        if self.action == "retrieve":
+            return [permissions.IsAuthenticated()]
+        elif self.action == "create":
+            return []
+
+        return []
 
     def create(self, request, *args, **kwargs):
         serializer = self.get_serializer(data=request.data)
@@ -113,10 +122,9 @@ class UserViewset(CreateModelMixin, mixins.UpdateModelMixin, mixins.RetrieveMode
 
         headers = self.get_success_headers(serializer.data)
         return Response(re_dict, status=status.HTTP_201_CREATED, headers=headers)
-    #
-    # def get_object(self):
-    #     return self.request.user
-    #
+
+    def get_object(self):
+        return self.request.user
 
     def perform_create(self, serializer):
         return serializer.save()
